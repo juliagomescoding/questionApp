@@ -45,7 +45,7 @@ struct ContentView: View {
                     Text(response)
                     
                     NavigationLink(destination: question2()) {
-                        Text("Go to the 2nd question")
+                        Text("Go to the 2nd question!")
                             .foregroundColor(.blue)
                     }
                     
